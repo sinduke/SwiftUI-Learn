@@ -12,7 +12,8 @@ struct CompleteProjectApp: App {
     var body: some Scene {
         WindowGroup {
             let globalModel = ModelStatus()
-            PageViewIndex().environmentObject(globalModel)
+//            PageViewIndex().environmentObject(globalModel)
+            ContentView().environmentObject(globalModel)
         }
     }
 }
